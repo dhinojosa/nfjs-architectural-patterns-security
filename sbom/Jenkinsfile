@@ -13,7 +13,7 @@ pipeline {
 
         stage('dependencyTrackPublisher') {
             steps {
-                dependencyTrackPublisher artifact: 'sbom/target/bom.xml', projectId: 'd98f251d-2b1d-4fd7-9375-979168790d5b', synchronous: true
+                dependencyTrackPublisher artifact: 'sbom/target/bom.xml', projectId: '735cbae3-778e-4e8b-a611-f730b855f388', synchronous: true
             }
         }
     }
